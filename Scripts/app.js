@@ -12,8 +12,8 @@ $("#form_submit").click(function(){
 
 	console.log("first_name: " + firstName.value);
 	console.log("last_name: " + lastName.value);
-	console.log("emailSection: " + email.vaule);
-	console.log("CommentsSection: " + comments.vaule);
+	console.log("emailSection: " + email.value);
+	console.log("CommentsSection: " + comments.value);
 });
 
 /*$(function() {
