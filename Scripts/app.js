@@ -1,19 +1,25 @@
 "use strict";
 // contact page stuffs
-$(document).ready(function(){
+/*$(document).ready(function(){
 		console.log("Contact Page");
 });
 
 $("#form_submit").click(function(){
 	var first_name = $("#firstName").val();
 	var last_name = $("#lastName").val();
-	var emailSection = $("#email_box").val();
+	var emailSection = $("#email").val();
 	var commentsSection = $("#comments").val();
 
 	console.log("first_name: " + firstName);
 	console.log("last_name: " + lastName);
 	console.log("emailSection: " + email);
 	console.log("CommentsSection: " + comments);
+});*/
+
+$(function() {
+  $('#form_submit').submit(function() {
+    console.log('First Name: '+$('input[name="firstName"]').val() + ' Input 2: '+ $('input[name="input2"]').val()); // etc.
+  });
 });
 
 (function () {
