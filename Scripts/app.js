@@ -7,13 +7,13 @@ $(document).ready(function(){
 $("#form_submit").click(function(){
 	var first_name = $("#firstName").val();
 	var last_name = $("#lastName").val();
-	var email_section = $("#email").val();
-	var comments_section = $("#comments").val();
+	var emailSection = $("#email").val();
+	var commentsSection = $("#comments").val();
 
-	console.log("first_name: " + firstName);
-	console.log("last_name: " + lastName);
-	console.log("emailSection: " + email);
-	console.log("CommentsSection: " + comments);
+	console.log("first_name: " + firstName.value);
+	console.log("last_name: " + lastName.value);
+	console.log("emailSection: " + email.vaule);
+	console.log("CommentsSection: " + comments.vaule);
 });
 
 /*$(function() {
