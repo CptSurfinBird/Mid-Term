@@ -25,6 +25,9 @@ function replaceContent() {
 		var Amorgos;
 		var Syros;
 		var Milos;
+		var Hydra;
+		var Ithaca;
+		var Gavdos;
 
 			IntroParagraph = document.getElementById("IntroParagraph");
 
