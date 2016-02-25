@@ -7,8 +7,8 @@ $(document).ready(function(){
 $("#form_submit").click(function(){
 	var first_name = $("#firstName").val();
 	var last_name = $("#lastName").val();
-	var emailSection = $("#email").val();
-	var commentsSection = $("#comments").val();
+	var email_section = $("#email").val();
+	var comments_section = $("#comments").val();
 
 	console.log("first_name: " + firstName);
 	console.log("last_name: " + lastName);
